@@ -4,16 +4,6 @@ import Menu from '../../Components/Menu/item.jsx'
 import Feature from '../../Components/Feature/item.jsx'
 import './item.css'
 
-function Header() {
-  return (
-    <header className="header">
-      <div className="header-container">
-        <Logo />
-        <Menu />
-        <Feature />
-      </div>
-    </header>
-  )
-}
+function Header() {}
 
 export default Header
