@@ -1,17 +1,13 @@
-import React from 'react'
-
-// Import CSS
+import { StrictMode } from 'react'
+import { createRoot } from 'react-dom/client'
+import '../../../../Assets/Global/Styles/root.css'
+import '../../../../Assets/Global/Scripts/root.jsx'
 import './page.css'
 
-function AboutPage() {
+function About() {
   return (
-    <div className="about-page">
-      <div className="about-page-container">
-        <h1>About</h1>
-        <p>About page content will go here.</p>
-      </div>
-    </div>
+    <div className="container"></div>
   )
 }
-
-export default AboutPage
+  
+export default About

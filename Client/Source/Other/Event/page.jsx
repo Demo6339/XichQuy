@@ -1,17 +1,13 @@
-import React from 'react'
-
-// Import CSS
+import { StrictMode } from 'react'
+import { createRoot } from 'react-dom/client'
+import '../../../Assets/Global/Styles/root.css'
+import '../../../Assets/Global/Scripts/root.jsx'
 import './page.css'
 
-function EventPage() {
+function Event() {
   return (
-    <div className="event-page">
-      <div className="event-page-container">
-        <h1>Event</h1>
-        <p>Event page content will go here.</p>
-      </div>
-    </div>
+    <div className="container"></div>
   )
 }
-
-export default EventPage
+  
+export default Event

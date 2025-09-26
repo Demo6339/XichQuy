@@ -1,17 +1,13 @@
-import React from 'react'
-
-// Import CSS
+import { StrictMode } from 'react'
+import { createRoot } from 'react-dom/client'
+import '../../../Assets/Global/Styles/root.css'
+import '../../../Assets/Global/Scripts/root.jsx'
 import './page.css'
 
-function ReviewPage() {
+function Review() {
   return (
-    <div className="review-page">
-      <div className="review-page-container">
-        <h1>Review</h1>
-        <p>Review page content will go here.</p>
-      </div>
-    </div>
+    <div className="container"></div>
   )
 }
-
-export default ReviewPage
+  
+export default Review

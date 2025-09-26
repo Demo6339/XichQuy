@@ -1,17 +1,13 @@
-import React from 'react'
-
-// Import CSS
+import { StrictMode } from 'react'
+import { createRoot } from 'react-dom/client'
+import '../../../Assets/Global/Styles/root.css'
+import '../../../Assets/Global/Scripts/root.jsx'
 import './page.css'
 
-function StorePage() {
+function Store() {
   return (
-    <div className="store-page">
-      <div className="store-page-container">
-        <h1>Store</h1>
-        <p>Store page content will go here.</p>
-      </div>
-    </div>
+    <div className="container"></div>
   )
 }
-
-export default StorePage
+  
+export default Store

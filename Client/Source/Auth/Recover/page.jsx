@@ -1,17 +1,13 @@
-import React from 'react'
-
-// Import CSS
+import { StrictMode } from 'react'
+import { createRoot } from 'react-dom/client'
+import '../../../Assets/Global/Styles/root.css'
+import '../../../Assets/Global/Scripts/root.jsx'
 import './page.css'
 
-function RecoverPage() {
+function Recover() {
   return (
-    <div className="recover-page">
-      <div className="recover-page-container">
-        <h1>Recover Password</h1>
-        <p>Password recovery form will go here.</p>
-      </div>
-    </div>
+    <div className="container"></div>
   )
 }
-
-export default RecoverPage
+  
+export default Recover

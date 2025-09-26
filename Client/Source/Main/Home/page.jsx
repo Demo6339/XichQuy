@@ -1,17 +1,13 @@
-import React from 'react'
-
-// Import CSS
+import { StrictMode } from 'react'
+import { createRoot } from 'react-dom/client'
+import '../../../Assets/Global/Styles/root.css'
+import '../../../Assets/Global/Scripts/root.jsx'
 import './page.css'
 
-function HomePage() {
+function Home() {
   return (
-    <div className="home-page">
-      <div className="home-page-container">
-        <h1>Home</h1>
-        <p>Home page content will go here.</p>
-      </div>
-    </div>
+    <div className="container"></div>
   )
 }
-
-export default HomePage
+  
+  export default Home
