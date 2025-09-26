@@ -1,14 +1,10 @@
 import React from 'react'
-
-// Import CSS
+import '../../Global/Styles/root.css'
 import './item.css'
 
 function TermsOfUse() {
   return (
-    <div className="terms-of-use">
-      <h3>Terms of Use</h3>
-      <p>Terms of use content will go here.</p>
-    </div>
+    <div className="container"></div>
   )
 }
 

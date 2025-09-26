@@ -5,9 +5,7 @@ import './item.css'
 
 function Logo() {
   return (
-    <div className="logo">
-      <img src="../../Library/Image/logo.png" alt="Xích Quỷ" />
-    </div>
+    <div className="container"></div>
   )
 }
 
