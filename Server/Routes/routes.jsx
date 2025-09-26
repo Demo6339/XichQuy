@@ -1,21 +1,21 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 
 // Import Pages theo thứ tự bạn yêu cầu
-import ReviewPage from '../Source/Main/Review/page.jsx'
-import HomePage from '../Source/Main/Home/page.jsx'
-import RegisterPage from '../Source/Auth/Register/page.jsx'
-import RecoverPage from '../Source/Auth/Recover/page.jsx'
-import StorePage from '../Source/Other/Store/page.jsx'
-import EventPage from '../Source/Other/Event/page.jsx'
-import ForumPage from '../Source/Other/Forum/page.jsx'
-import AboutPage from '../Source/Other/Helper/About/page.jsx'
-import CooperatePage from '../Source/Other/Helper/Cooperate/page.jsx'
-import LegalPage from '../Assets/Components/Legal/page.jsx'
-import PrivacyPolicyPage from '../Assets/Components/Legal/PrivacyPolicy/item.jsx'
-import TermOfUsePage from '../Assets/Components/Legal/TermsOfUse/item.jsx'
+import ReviewPage from '../../Client/Source/Main/Review/page.jsx'
+import HomePage from '../../Client/Source/Main/Home/page.jsx'
+import RegisterPage from '../../Client/Source/Auth/Register/page.jsx'
+import RecoverPage from '../../Client/Source/Auth/Recover/page.jsx'
+import StorePage from '../../Client/Source/Other/Store/page.jsx'
+import EventPage from '../../Client/Source/Other/Event/page.jsx'
+import ForumPage from '../../Client/Source/Other/Forum/page.jsx'
+import AboutPage from '../../Client/Source/Other/Helper/About/page.jsx'
+import CooperatePage from '../../Client/Source/Other/Helper/Cooperate/page.jsx'
+import LegalPage from '../../Client/Assets/Components/Legal/item.jsx'
+import PrivacyPolicyPage from '../../Client/Assets/Components/Legal/PrivacyPolicy/item.jsx'
+import TermOfUsePage from '../../Client/Assets/Components/Legal/TermsOfUse/item.jsx'
 
 // Import Layout
-import Layout from '../Assets/layout.jsx'
+import Layout from '../../Client/Assets/Screen/layout.jsx'
 
 function AppRoutes() {
   return (

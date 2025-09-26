@@ -1,4 +1,15 @@
-import { StrictMode } from 'react'
-import { createRoot } from 'react-dom/client'
-import '../../../Assets/Global/Styles/root.css'
-import '../../../Assets/Global/Scripts/root.jsx'
+import React from 'react'
+
+// Import CSS
+import './item.css'
+
+function PrivacyPolicy() {
+  return (
+    <div className="privacy-policy">
+      <h3>Privacy Policy</h3>
+      <p>Privacy policy content will go here.</p>
+    </div>
+  )
+}
+
+export default PrivacyPolicy
