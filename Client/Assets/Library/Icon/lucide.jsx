@@ -38,9 +38,9 @@ import {
   User,
   Users,
   UserPlus,
+  CircleUser,
   LogIn,
   LogOut,
-  
   // Communication
   Mail,
   MessageCircle,
@@ -124,6 +124,7 @@ export const Icons = {
   User,
   Users,
   UserPlus,
+  CircleUser,
   LogIn,
   LogOut,
   

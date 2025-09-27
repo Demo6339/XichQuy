@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import 'flag-icons/css/flag-icons.min.css';
 import Icons from '../../Library/Icon/lucide.jsx'
 import '../../Global/Styles/root.css'
 import './feature.css'
@@ -37,20 +38,32 @@ function Feature() {
         </div>
         {openDropdown === 'language' && (
           <div className="language-dropdown">
-            <div className='language-option' onClick={() => selectLanguage('vi')}>Tiếng Việt</div>
-            <div className='language-option' onClick={() => selectLanguage('en')}>Tiếng Anh</div>
+            <div className='language-option' onClick={() => selectLanguage('vi')}>
+              <span class="fi fi-vn"></span>
+              <p>Tiếng Việt</p>
+            </div>
+            <div className='language-option' onClick={() => selectLanguage('en')}>
+              <span class="fi fi-us"></span>
+              <p>Tiếng Anh</p>
+            </div>
           </div>
         )}
       </div>
       
       <div className="wrapper account">
         <div onClick={() => toggleDropdown('account')}>
-          <Icons.User className="icon" />
+          <Icons.CircleUser className="icon" />
         </div>
         {openDropdown === 'account' && (
           <div className="account-dropdown">
-            <div className='account-option' onClick={handleProfile}>Hồ Sơ</div>
-            <div className='account-option' onClick={handleLogout}>Đăng Xuất</div>
+            <div className='account-option' onClick={handleProfile}>
+              <Icons.User className="icon" />
+              <p>Hồ Sơ</p>
+            </div>
+            <div className='account-option' onClick={handleLogout}>
+              <Icons.LogOut className="icon" />
+              <p>Đăng Xuất</p>
+            </div>
           </div>
         )}
       </div>
