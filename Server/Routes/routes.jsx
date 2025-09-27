@@ -13,6 +13,7 @@ import CooperatePage from '../../Client/Source/Other/Helper/Cooperate/page.jsx'
 import LegalPage from '../../Client/Assets/Components/Legal/item.jsx'
 import PrivacyPolicyPage from '../../Client/Assets/Components/Legal/PrivacyPolicy/item.jsx'
 import TermOfUsePage from '../../Client/Assets/Components/Legal/TermsOfUse/item.jsx'
+import Profile from '../../Client/Source/Auth/Profile/page.jsx'
 
 // Import Layout
 import Layout from '../../Client/Assets/Screen/layout.jsx'
@@ -35,7 +36,7 @@ function AppRoutes() {
           <Route path="/legal" element={<LegalPage />} />
           <Route path="/legal/privacy-policy" element={<PrivacyPolicyPage />} />
           <Route path="/legal/term-of-use" element={<TermOfUsePage />} />
-          
+          <Route path="/profile" element={<Profile />} />
           {/* Default route */}
           <Route path="/" element={<HomePage />} />
           

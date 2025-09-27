@@ -1,10 +1,12 @@
 import React, { useState } from 'react'
+import { useNavigate } from 'react-router-dom'
 import 'flag-icons/css/flag-icons.min.css';
 import Icons from '../../Library/Icon/lucide.jsx'
 import '../../Global/Styles/root.css'
 import './feature.css'
 
 function Feature() {
+  const navigate = useNavigate()
   const [isDarkMode, setIsDarkMode] = useState(false)
   const [currentLanguage, setCurrentLanguage] = useState('vi')
   const [openDropdown, setOpenDropdown] = useState(null)
@@ -20,6 +22,7 @@ function Feature() {
 
   const handleProfile = () => {
     setOpenDropdown(null)
+    navigate('/profile')
   }
 
   const handleLogout = () => {
@@ -33,8 +36,9 @@ function Feature() {
       </div>
       
       <div className="wrapper toggle-language">
-        <div onClick={() => toggleDropdown('language')}>
+        <div onClick={() => toggleDropdown('language')} className="language-wrapper">
           <Icons.Globe className="icon" />
+          <span className="language-indicator">{currentLanguage.toUpperCase()}</span>
         </div>
         {openDropdown === 'language' && (
           <div className="language-dropdown">
