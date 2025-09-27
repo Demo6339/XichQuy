@@ -2,6 +2,7 @@ import React from 'react'
 import Logo from '../../Components/Logo/item.jsx'
 import Menu from '../../Components/Menu/item.jsx'
 import Feature from '../../Components/Feature/item.jsx'
+import Icons from '../../Library/Icon/lucide.jsx'
 import '../../Global/Styles/root.css'
 import './item.css'
 
