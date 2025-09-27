@@ -4,8 +4,11 @@ import Icons from '../../Library/Icon/lucide.jsx'
 import './item.css'
 
 function Logo() {
+  const navigateToReview = () => {
+    window.location.href = '/review'
+  }
   return (
-    <div className="container">
+    <div className="container" onClick={navigateToReview}>
       <div className="logo">
         <img src={logo} alt="logo" />
       </div>

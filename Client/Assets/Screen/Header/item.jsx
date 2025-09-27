@@ -9,9 +9,15 @@ import './item.css'
 function Header() {
   return (
     <div className="container">
-      <Logo />
-      <Menu />
-      <Feature />
+      <div className="wrapper logo">
+        <Logo />
+      </div>
+      <div className="wrapper menu">
+        <Menu />
+      </div>
+      <div className="wrapper feature">
+        <Feature />
+      </div>
     </div>
   )
 }
