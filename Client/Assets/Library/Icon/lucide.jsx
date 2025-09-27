@@ -78,6 +78,10 @@ import {
   Smartphone,
   Monitor,
   
+  // Theme
+  Sun,
+  Moon,
+  
 } from 'lucide-react';
 
 // Export tất cả icons để sử dụng dễ dàng
@@ -159,6 +163,10 @@ export const Icons = {
   WifiOff,
   Smartphone,
   Monitor,
+  
+  // Theme
+  Sun,
+  Moon,
 };
 
 // Export default để có thể import dễ dàng
