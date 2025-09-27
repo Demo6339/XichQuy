@@ -1,0 +1,64 @@
+.feature {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.feature .wrapper {
+
+}
+.feature .wrapper.toggle-theme {
+
+}
+.feature .wrapper.toggle-language {
+    position: relative;
+}
+.feature .wrapper.account {
+    position: relative;
+}
+.feature .wrapper .icon {
+    cursor: pointer;
+    font-size: 26px;
+}
+.feature .wrapper .language-dropdown {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 110px;
+    height: 70px;
+    top: 30px;
+    right: 0;
+    background: rgb(250, 250, 250);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    z-index: 100;
+}
+.feature .wrapper .language-dropdown .language-option {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 35px;
+}
+.feature .wrapper .account-dropdown {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 110px;
+    height: 70px;
+    top: 30px;
+    right: 0;
+    background: rgb(250, 250, 250);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    z-index: 100;
+}
+.feature .wrapper .account-dropdown .account-option {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 35px;
+}

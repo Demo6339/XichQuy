@@ -36,9 +36,9 @@ function Feature() {
           <Icons.Globe className="icon" />
         </div>
         {openDropdown === 'language' && (
-          <div>
-            <div onClick={() => selectLanguage('vi')}>Tiếng Việt</div>
-            <div onClick={() => selectLanguage('en')}>Tiếng Anh</div>
+          <div className="language-dropdown">
+            <div className='language-option' onClick={() => selectLanguage('vi')}>Tiếng Việt</div>
+            <div className='language-option' onClick={() => selectLanguage('en')}>Tiếng Anh</div>
           </div>
         )}
       </div>
@@ -48,9 +48,9 @@ function Feature() {
           <Icons.User className="icon" />
         </div>
         {openDropdown === 'account' && (
-          <div>
-            <div onClick={handleProfile}>Hồ Sơ</div>
-            <div onClick={handleLogout}>Đăng Xuất</div>
+          <div className="account-dropdown">
+            <div className='account-option' onClick={handleProfile}>Hồ Sơ</div>
+            <div className='account-option' onClick={handleLogout}>Đăng Xuất</div>
           </div>
         )}
       </div>
