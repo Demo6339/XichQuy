@@ -1,7 +1,7 @@
 import React from 'react'
 import logo from '../../Library/Image/logo.png'
 import Icons from '../../Library/Icon/lucide.jsx'
-import './item.css'
+import './logo.css'
 
 function Logo() {
   const navigateToReview = () => {

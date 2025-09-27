@@ -4,7 +4,7 @@ import Menu from '../../Components/Menu/item.jsx'
 import Feature from '../../Components/Feature/item.jsx'
 import Icons from '../../Library/Icon/lucide.jsx'
 import '../../Global/Styles/root.css'
-import './item.css'
+import './header.css'
 
 function Header() {
   return (

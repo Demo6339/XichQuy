@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import Icons from '../../Library/Icon/lucide.jsx'
 import '../../Global/Styles/root.css'
-import './item.css'
+import './menu.css'
 
 function Menu() {
   return (
