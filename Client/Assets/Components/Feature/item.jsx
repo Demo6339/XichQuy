@@ -26,7 +26,7 @@ function Feature() {
   }
 
   return (
-    <div className="container">
+    <div className="feature">
       <div className="wrapper toggle-theme" onClick={() => setIsDarkMode(!isDarkMode)}>
         {isDarkMode ? <Icons.Moon className="icon" /> : <Icons.Sun className="icon" />}
       </div>

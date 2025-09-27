@@ -7,7 +7,7 @@ import './admin.css'
 
 function Admin() {
   return (
-    <div className="container"></div>
+    <div className="admin"></div>
   )
 }
   

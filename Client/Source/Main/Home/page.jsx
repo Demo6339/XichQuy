@@ -7,7 +7,7 @@ import './home.css'
 
 function Home() {
   return (
-    <div className="container"></div>
+    <div className="home"></div>
   )
 }
   

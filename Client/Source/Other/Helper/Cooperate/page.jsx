@@ -7,7 +7,7 @@ import './cooperate.css'
 
 function Cooperate() {
   return (
-    <div className="container"></div>
+    <div className="cooperate"></div>
   )
 }
   

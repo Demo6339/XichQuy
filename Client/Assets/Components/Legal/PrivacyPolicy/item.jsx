@@ -5,7 +5,7 @@ import './privacy.css'
 
 function PrivacyPolicy() {
   return (
-    <div className="container"></div>
+    <div className="privacy"></div>
   )
 }
 

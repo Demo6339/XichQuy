@@ -5,7 +5,7 @@ import './information.css'
 
 function Information() {
   return (
-    <div className="container"></div>
+    <div className="information"></div>
   )
 }
 

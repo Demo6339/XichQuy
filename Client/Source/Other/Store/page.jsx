@@ -7,7 +7,7 @@ import './store.css'
 
 function Store() {
   return (
-    <div className="container"></div>
+    <div className="store"></div>
   )
 }
   

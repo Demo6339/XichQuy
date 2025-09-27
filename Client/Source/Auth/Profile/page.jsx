@@ -7,7 +7,7 @@ import './profile.css'
 
 function Profile() {
   return (
-    <div className="container"></div>
+    <div className="profile"></div>
   )
 }
   

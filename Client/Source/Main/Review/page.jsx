@@ -7,7 +7,7 @@ import './review.css'
 
 function Review() {
   return (
-    <div className="container"></div>
+    <div className="review"></div>
   )
 }
   

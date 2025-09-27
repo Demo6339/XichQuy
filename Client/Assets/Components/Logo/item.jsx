@@ -8,8 +8,8 @@ function Logo() {
     window.location.href = '/review'
   }
   return (
-    <div className="container" onClick={navigateToReview}>
-      <div className="logo">
+    <div className="logo" onClick={navigateToReview}>
+      <div className="icon">
         <img src={logo} alt="logo" />
       </div>
       <div className="text">

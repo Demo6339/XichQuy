@@ -6,7 +6,7 @@ import './menu.css'
 
 function Menu() {
   return (
-    <div className="container">
+    <div className="menu">
       <div className="item">
         <Link to="/home">Trang Chủ</Link>
       </div>

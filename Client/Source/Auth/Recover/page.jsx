@@ -7,7 +7,7 @@ import './recover.css'
 
 function Recover() {
   return (
-    <div className="container"></div>
+    <div className="recover"></div>
   )
 }
   

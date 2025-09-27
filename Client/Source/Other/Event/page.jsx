@@ -7,7 +7,7 @@ import './event.css'
 
 function Event() {
   return (
-    <div className="container"></div>
+    <div className="event"></div>
   )
 }
   

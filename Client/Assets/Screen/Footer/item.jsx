@@ -7,7 +7,7 @@ import './footer.css'
 
 function Footer() {
   return (
-    <div className="container">
+    <div className="footer">
       <Information />
       <Legal />
     </div>

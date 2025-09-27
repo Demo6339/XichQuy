@@ -7,7 +7,7 @@ import './legal.css'
 
 function Legal() {
   return (
-    <div className="container">
+    <div className="legal">
       <PrivacyPolicy />
       <TermsOfUse />
     </div>

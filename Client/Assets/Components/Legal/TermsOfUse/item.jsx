@@ -5,7 +5,7 @@ import './terms.css'
 
 function TermsOfUse() {
   return (
-    <div className="container"></div>
+    <div className="terms"></div>
   )
 }
 

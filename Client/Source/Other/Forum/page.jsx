@@ -7,7 +7,7 @@ import './forum.css'
 
 function Forum() {
   return (
-    <div className="container"></div>
+    <div className="forum"></div>
   )
 }
   
